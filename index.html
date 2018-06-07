@@ -66,10 +66,10 @@
                         <!-- Begin MailChimp Signup Form -->
                         <div class="row justify-content-center align-items-center">
                             <div id="mc_embed_signup" class="justify-content-center align-items-center">
-                                <form action="https://roboticsux.us18.list-manage.com/subscribe/post?u=c94a82c93f9b75b503d07ceeb&amp;id=63188a5627" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                <form action="https://roboticsux.us18.list-manage.com/subscribe/post?u=c94a82c93f9b75b503d07ceeb&amp;id=63188a5627" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" data-parsley-validate>
                                     <div id="mc_embed_signup_scroll">
 
-                                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="enter your email address" required>
+                                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="enter your email address" required data-parsley-error-message="Please enter a valid email address.">
                                         <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                                         <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c94a82c93f9b75b503d07ceeb_63188a5627" tabindex="-1" value=""></div>
                                         <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
@@ -97,6 +97,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="js/particles.min.js"></script>
+    <script src="js/parsley.min.js"></script>
     <script>
         window.onload = function() {
             Particles.init({
@@ -106,7 +107,6 @@
                 connectParticles: true
             });
         };
-
     </script>
 </body>
 
